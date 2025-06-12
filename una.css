@@ -340,15 +340,3 @@ h1 {
 }
 
 
-.image-slider {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  gap: 10px;
-}
-
-.image-slider img {
-  width: 300px;
-  height: auto;
-  scroll-snap-align: center;
-}
